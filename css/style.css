@@ -23,12 +23,6 @@
     position: absolute;
     animation: plane 2s infinite;
 }
-.sun{
-    width: 100px;
-    top: 100px;
-    left: 20px;
-    position: absolute;
-}
 
 @keyframes carway{
     0%{bottom: 0px;left: 25px;}
