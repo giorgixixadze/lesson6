@@ -1,0 +1,53 @@
+.way{
+    width: 100%;
+    position: relative;
+}
+.car2{
+    width: 250px;
+    bottom: 25px;
+    right: 20px;
+    position: absolute;
+    animation: car2 2s infinite;
+}
+.car1{
+    width: 250px;
+    bottom: 0px;
+    left: 25px;
+    position: absolute;
+    animation: carway 5s infinite;
+}
+.plane{
+    width: 100px;
+    top: 500px;
+    left: 50px;
+    position: absolute;
+    animation: plane 2s infinite;
+}
+.sun{
+    width: 100px;
+    top: 100px;
+    left: 20px;
+    position: absolute;
+}
+
+@keyframes carway{
+    0%{bottom: 0px;left: 25px;}
+    25%{bottom: 0px;left:200px}
+    50%{bottom: 0px;left: 800px;}
+    75%{bottom: 0px;left: 1000px;}
+    100%{bottom: 0px;left: 1700px;}
+}
+@keyframes car2{
+    0%{bottom: 25px;right: 20px;}
+    25%{bottom: 25px;right: 200px;}
+    50%{bottom: 25px;right: 400px;}
+    75%{bottom: 25px;right: 1000px;}
+    100%{bottom: 25px;right: 1700px;}
+}
+@keyframes plane{
+    0%{top: 500px;left: 50px;}
+    25%{top: 500px;left: 200px;}
+    50%{top: 400px;left: 500px;}
+    75%{top: 300px;left: 700px;}
+    100%{top: 150px;left: 1700px;}
+}
